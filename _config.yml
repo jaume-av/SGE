@@ -1,8 +1,24 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: SGE
+description: Sistemes de Gestió Empresarial
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://jaume-av.github.io/SGE/
+baseurl: "/SGE" 
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  "Accés a Aules":
+    - https://aules.edu.gva.es/fp/
+
+search_enabled: true
+
+footer:
+  copyright: "© 2024 Jaume"
+  links:
+    - title: "Llicència CC BY-SA 4.0"
+      url: "https://creativecommons.org/licenses/by-sa/4.0/"
+
+# Navegació directa sense desplegables
+collections:
+  docs:
+    output: true
+    permalink: /:path/
